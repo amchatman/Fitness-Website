@@ -39,3 +39,59 @@ button{
   border-radius:8px;
   color:#FFFFFF;
 }
+.hero-img{
+  background-image:url("resources/images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg");
+  height:550px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  backgroud-position:center;
+}
+.hero-img-text{
+  text-align:center;
+  color:#FFFFFF;
+  font-family:"Oswald", sans-serif;
+  font-variant:small-caps;
+  padding-top:40px;
+  position: relative;
+  top:50px;
+}
+.tagline{
+  font-size:50px;
+}
+.tagline-mid{
+  font-size:100px;
+}
+.tag{
+  color:#E51E25;
+}
+.about-section{
+  margin-top:300px;
+  float:right;
+  }
+  .about-section img{
+    width:40%;
+    display:inline-block;
+    margin-left:20px;
+  }
+.about-info{
+  background-color:rgb(200,200,200 ,0.3);
+  height:330px;
+  width:543px;
+  float:right;
+  margin-right:20px;
+}
+.about-info h2,h3{
+  font-family:Oswald,sans-serif;
+  padding-left:16px;
+}
+.about-info hr{
+  height:2px;
+  width:400px;
+  background-color:#E51E25;
+  border:none;
+}
+.about-info p{
+  padding:14px;
+  font-family:Oswald,sans-serif;
+  font-size:14px;
+}
