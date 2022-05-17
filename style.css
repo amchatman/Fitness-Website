@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration:none;
+  color:#000000;
+  font-size:18px;
+  font-family:"Oswald",san-serif;
+}
+.text-logo{
+  font-family:"Oswald", sans-serif;
+  margin-right:auto;
+}
+header{
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  padding:25px 10%;
+}
+.nav-links{
+  list-style:none;
+}
+.nav-links li{
+  display:inline-block;
+  padding:0px 24px;
+}
+.nav-links li a{
+  transition:all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+  color:#E51E25;
+}
+button{
+  margin-left:24px;
+  padding:14px 20px;
+  background-color:#E51E25;
+  border:none;
+  border-radius:8px;
+  color:#FFFFFF;
+}
