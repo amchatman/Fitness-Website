@@ -2,6 +2,9 @@
   margin:0;
   padding:0;
 }
+body{
+    font-family:"Oswald", sans-serif;
+}
 a{
   text-decoration:none;
   color:#000000;
@@ -49,7 +52,6 @@ button{
 .hero-img-text{
   text-align:center;
   color:#FFFFFF;
-  font-family:"Oswald", sans-serif;
   font-variant:small-caps;
   padding-top:40px;
   position: relative;
@@ -67,6 +69,7 @@ button{
 .about-section{
   margin-top:300px;
   float:right;
+  margin-bottom:80px;
   }
   .about-section img{
     width:40%;
@@ -81,7 +84,6 @@ button{
   margin-right:20px;
 }
 .about-info h2,h3{
-  font-family:Oswald,sans-serif;
   padding-left:16px;
 }
 .about-info hr{
@@ -92,6 +94,38 @@ button{
 }
 .about-info p{
   padding:14px;
-  font-family:Oswald,sans-serif;
   font-size:14px;
+}
+.services{
+  background-image:url("resources/images/risen-wang-20jX9b35r_M-unsplash.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  height:625px;
+  clear:both;
+  color:#FFFFFF;
+
+}
+.services h1{
+  text-align:center;
+}
+.test{
+  margin:0 auto;
+  width:auto;
+}
+.weight-training,.cardio-training,.personal-training,.body-building{
+  color:#000000;
+  background-color:#FFFFFF;
+  width:25%;
+  float:left;
+  margin:50px;
+}
+.weight-training h2{
+  padding:10px;
+
+}
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
 }
