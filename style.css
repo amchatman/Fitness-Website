@@ -97,35 +97,41 @@ button{
   font-size:14px;
 }
 .services{
-  background-image:url("resources/images/risen-wang-20jX9b35r_M-unsplash.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("resources/images/risen-wang-20jX9b35r_M-unsplash.jpg");
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center;
   height:625px;
   clear:both;
   color:#FFFFFF;
-
 }
 .services h1{
   text-align:center;
 }
-.test{
-  margin:0 auto;
-  width:auto;
+.row{
+  display:flex;
+  margin-top:30px;
 }
-.weight-training,.cardio-training,.personal-training,.body-building{
+.column{
+  flex:50%;
+  padding:16px;
+  height:150px;
+  width:700px;
+  background:#FFFFFF;
+  margin:10px;
   color:#000000;
-  background-color:#FFFFFF;
-  width:25%;
-  float:left;
-  margin:50px;
+  border-radius:8px;
 }
-.weight-training h2{
-  padding:10px;
+.column img{
+  float:left;
+}
+.column h2{
+  text-decoration:underline;
+  text-decoration-color:red;
+  text-decoration-thickness:2px;
+  clear:right;
 
 }
-.row:after{
-  content:"";
-  display:table;
-  clear:both;
+.column p{
+  padding:15px;
 }
