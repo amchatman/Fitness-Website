@@ -130,8 +130,33 @@ button{
   text-decoration-color:red;
   text-decoration-thickness:2px;
   clear:right;
-
 }
 .column p{
   padding:15px;
+}
+.plans-section h2{
+  margin-top:30px;
+}
+.plans-section h2,.plans-section p{
+  text-align:center;
+}
+.plans{
+  background-color:#D0D0D0;
+  padding:15px;
+  margin:60px;
+  width:250px;
+  height:450px;
+  border-radius:8px;
+  display:inline-block;
+}
+.plans-rows{
+  display:flex;
+}
+.plans h4, .plans h3{
+  padding:5px;
+}
+.plans li{
+  list-style:none;
+  font-size:14px;
+  padding:5px;
 }
