@@ -38,7 +38,7 @@ nav{
 .nav-links li{
     list-style:none''
 }
-.nav-button{
+button{
     background-color:var(--primary);
     border:none;
     border-radius:8px;
@@ -88,7 +88,61 @@ nav{
     transform:translate(-3px, 3px) rotate(-45deg);
     
 }
-
+.hero-img{
+    background-image:url("resources/images/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg");
+    max-width:100%;
+    height:550px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    margin-top:50px;
+    margin-bottom:50px;
+    
+}
+.hero-img-text{
+    text-align:center;
+    color:var(--light);
+    text-transform:uppercase;
+    padding-top:40px;
+    position:relative;
+    top:50px;
+}
+.tagline{
+    font-size:50px;
+}
+.tagline-mid{
+    font-size:100px;
+}
+.tag{
+    color:var(--primary);
+}
+.about-section{
+    display:flex;
+    justify-content:center;
+    margin-top:150px;
+}
+.about-section img{
+    width:100%;
+    max-width:500px;
+    margin:50px;
+}
+.about-info{
+    background-color:rgb(200,200,200 ,0.3);
+    float:right;
+    width:550px;
+    height:330px;
+    margin:50px;
+}
+.about-info h2,h3{
+    padding-left:16px;
+    padding-right:16px;
+    padding-top:16px;
+}
+.about-info p{
+    padding:16px;
+    
+}
+/*Desktop*/
 @media (min-width:768px){
     .mobile-nav{
         display:none;   
@@ -99,8 +153,9 @@ nav{
     .nav-links li{
         display:inline-block;   
     }
+    
 }
-
+/*Mobile*/
 @media (max-width:768px){
     nav{
         width:100%;
@@ -149,4 +204,29 @@ nav{
     }
     nav.is-active{
         display:block;
+    }
+    .hero-img{
+        height:400px;
+    }
+    .tagline{
+    font-size:30px;
+    }
+    .tagline-mid{
+    font-size:45px;
+    }
+    .about-section img{
+    max-width:100%;
+    margin:50px auto;
+    border-radius:8px;
+    }
+    .about-section{
+    display:block;
+    margin-top:85px;
+    }
+    .about-info{
+    float:none;
+    width:100%;
+    height:auto;
+    margin:0;
+    }
 }
