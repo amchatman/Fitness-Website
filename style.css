@@ -130,8 +130,9 @@ button{
     background-color:rgb(200,200,200 ,0.3);
     float:right;
     width:550px;
-    height:330px;
+    height:350px;
     margin:50px;
+    
 }
 .about-info h2,h3{
     padding-left:16px;
@@ -139,8 +140,65 @@ button{
     padding-top:16px;
 }
 .about-info p{
+    padding:16px;   
+}
+.about-button{
+    margin-left:10px;
+}
+.services{
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("resources/images/risen-wang-20jX9b35r_M-unsplash.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+   margin-top:50px;
+  height:625px;
+  clear:both;
+  color:var(--light);
+}
+.services h1{
+  text-align:center;
+}
+.row{
+  display:flex;
+  margin-top:30px;
+}
+.column{
+    color:var(--dark);
+    background:var(--light);
+    height:150px;
+    margin:10px;
     padding:16px;
-    
+    border-radius:8px;
+    flex:50%;
+}
+.column img{
+  float:left;
+}
+.column h2{
+  text-decoration:underline;
+  text-decoration-color:var(--primary);
+  clear:right;
+}
+.column p{
+  padding:15px;
+}
+.plans-section h2{
+  margin-top:50px;
+}
+.plans-section h2,.plans-section p{
+  text-align:center;
+}
+.plans{
+  background-color:#D0D0D0;
+  padding:15px;
+  margin:60px;
+  width:250px;
+  height:450px;
+  border-radius:8px;
+  display:inline-block;
+}
+.plans-rows{
+  display:flex;
 }
 /*Desktop*/
 @media (min-width:768px){
@@ -197,7 +255,6 @@ button{
         position:absolute;
         top:20px;
         right:20px;
-        
     }
     nav.hide{
         display:none;
@@ -222,11 +279,33 @@ button{
     .about-section{
     display:block;
     margin-top:85px;
+
     }
     .about-info{
     float:none;
     width:100%;
     height:auto;
     margin:0;
+    text-align:center;
     }
+    .about-button{
+        margin:10px; 
+    }
+    .row{
+      display:block;
+    }
+
+    .column,.services{
+        height:auto;
+    }
+    .plans{
+  padding:15px;
+  margin:0;
+  width:auto;;
+  height:auto;
+  display:block;
+}
+  .plans-rows{
+  display:block;
+    }  
 }
