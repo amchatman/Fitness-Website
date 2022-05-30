@@ -14,6 +14,9 @@
 a{
     text-decoration:none;
 }
+li{
+    list-style:none;
+}
 nav{
     padding:25px 10px;
 }
@@ -191,7 +194,7 @@ button{
 .plans{
   background-color:#D0D0D0;
   padding:15px;
-  margin:60px;
+  margin:20px auto;
   width:250px;
   height:450px;
   border-radius:8px;
@@ -199,6 +202,28 @@ button{
 }
 .plans-rows{
   display:flex;
+}
+.plans h4, .plans h3{
+    padding:5px;
+}
+.plans li{
+    font-size:14px;
+    padding:5px;
+    font-weight:bold;
+}
+.plans a{
+    margin-left:50px;
+    margin-right:50px;
+}
+.plans button{
+    margin-top:20px;
+}
+#premium-plan{
+    color:var(--light);
+    background-color:var(--primary);
+}
+#premium-plan-button{
+    background-color:var(--medium);
 }
 /*Desktop*/
 @media (min-width:768px){
@@ -300,10 +325,11 @@ button{
     }
     .plans{
   padding:15px;
-  margin:0;
+  margin:20px;
   width:auto;;
   height:auto;
   display:block;
+  text-align:center;
 }
   .plans-rows{
   display:block;
